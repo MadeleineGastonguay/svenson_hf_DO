@@ -1,0 +1,30 @@
+Package: bmediatR
+Title: Toolset for running Bayesian mediation model selection analysis
+Version: 0.1.1
+Authors@R: c(person("Gregory", "Keele", role = "aut"),
+             person("Wesley", "Crouse", email = "wesleycrouse@gmail.com", role = c("aut", "cre")))
+Description: This package performs Bayesian mediation model selection analysis.
+Depends: R (>= 3.6.1)
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: matrixStats, VGAM, dplyr, magrittr, qtl2, tidyselect, tibble,
+        tidyr,
+Suggests: ggplot2, qtl2
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: bmediatR
+RemoteUsername: wesleycrouse
+RemoteRef: HEAD
+RemoteSha: 73ccbf5a1ca7f1da5e87dc96319b10e43086b687
+GithubRepo: bmediatR
+GithubUsername: wesleycrouse
+GithubRef: HEAD
+GithubSHA1: 73ccbf5a1ca7f1da5e87dc96319b10e43086b687
+NeedsCompilation: no
+Packaged: 2021-10-18 17:18:20 UTC; gastom
+Author: Gregory Keele [aut],
+  Wesley Crouse [aut, cre]
+Maintainer: Wesley Crouse <wesleycrouse@gmail.com>
+Built: R 4.1.0; ; 2021-10-18 17:18:21 UTC; unix

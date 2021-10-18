@@ -1,0 +1,499 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>R: Quantitative Trait Locus Mapping in Experimental Crosses</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+<h1> Quantitative Trait Locus Mapping in Experimental Crosses
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;qtl2&rsquo; version 0.28</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<p style="text-align: center;">
+<a href="#A">A</a>
+<a href="#B">B</a>
+<a href="#C">C</a>
+<a href="#D">D</a>
+<a href="#E">E</a>
+<a href="#F">F</a>
+<a href="#G">G</a>
+<a href="#I">I</a>
+<a href="#L">L</a>
+<a href="#M">M</a>
+<a href="#N">N</a>
+<a href="#P">P</a>
+<a href="#Q">Q</a>
+<a href="#R">R</a>
+<a href="#S">S</a>
+<a href="#T">T</a>
+<a href="#V">V</a>
+<a href="#W">W</a>
+<a href="#X">X</a>
+<a href="#Z">Z</a>
+<a href="#misc">misc</a>
+</p>
+
+
+<h2><a name="A">-- A --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="add_threshold.html">add_threshold</a></td>
+<td>Add thresholds to genome scan plot</td></tr>
+</table>
+
+<h2><a name="B">-- B --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="basic_summaries.html">basic_summaries</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="batch_cols.html">batch_cols</a></td>
+<td>Batch columns by pattern of missing values</td></tr>
+<tr><td style="width: 25%;"><a href="batch_vec.html">batch_vec</a></td>
+<td>Split vector into batches</td></tr>
+<tr><td style="width: 25%;"><a href="bayes_int.html">bayes_int</a></td>
+<td>Calculate Bayes credible intervals</td></tr>
+</table>
+
+<h2><a name="C">-- C --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="rbind.scan1perm.html">c.scan1perm</a></td>
+<td>Combine data from scan1perm objects</td></tr>
+<tr><td style="width: 25%;"><a href="calc_entropy.html">calc_entropy</a></td>
+<td>Calculate entropy of genotype probability distribution</td></tr>
+<tr><td style="width: 25%;"><a href="calc_errorlod.html">calc_errorlod</a></td>
+<td>Calculate genotyping error LOD scores</td></tr>
+<tr><td style="width: 25%;"><a href="calc_genoprob.html">calc_genoprob</a></td>
+<td>Calculate conditional genotype probabilities</td></tr>
+<tr><td style="width: 25%;"><a href="calc_geno_freq.html">calc_geno_freq</a></td>
+<td>Calculate genotype frequencies</td></tr>
+<tr><td style="width: 25%;"><a href="calc_grid.html">calc_grid</a></td>
+<td>Calculate indicators of which marker/pseudomarker positions are along a fixed grid</td></tr>
+<tr><td style="width: 25%;"><a href="calc_het.html">calc_het</a></td>
+<td>Calculate heterozygosities</td></tr>
+<tr><td style="width: 25%;"><a href="calc_kinship.html">calc_kinship</a></td>
+<td>Calculate kinship matrix</td></tr>
+<tr><td style="width: 25%;"><a href="calc_raw_founder_maf.html">calc_raw_founder_maf</a></td>
+<td>Calculate founder minor allele frequencies from raw SNP genotypes</td></tr>
+<tr><td style="width: 25%;"><a href="calc_raw_geno_freq.html">calc_raw_geno_freq</a></td>
+<td>Calculate genotype frequencies from raw SNP genotypes</td></tr>
+<tr><td style="width: 25%;"><a href="calc_raw_het.html">calc_raw_het</a></td>
+<td>Calculate estimated heterozygosity from raw SNP genotypes</td></tr>
+<tr><td style="width: 25%;"><a href="calc_raw_maf.html">calc_raw_maf</a></td>
+<td>Calculate minor allele frequency from raw SNP genotypes</td></tr>
+<tr><td style="width: 25%;"><a href="calc_sdp.html">calc_sdp</a></td>
+<td>Calculate strain distribution pattern from SNP genotypes</td></tr>
+<tr><td style="width: 25%;"><a href="cbind.calc_genoprob.html">cbind.calc_genoprob</a></td>
+<td>Join genotype probabilities for different chromosomes</td></tr>
+<tr><td style="width: 25%;"><a href="cbind.scan1.html">cbind.scan1</a></td>
+<td>Join genome scan results for different phenotypes.</td></tr>
+<tr><td style="width: 25%;"><a href="cbind.scan1perm.html">cbind.scan1perm</a></td>
+<td>Combine columns from multiple scan1 permutation results</td></tr>
+<tr><td style="width: 25%;"><a href="cbind.sim_geno.html">cbind.sim_geno</a></td>
+<td>Join genotype imputations for different chromosomes</td></tr>
+<tr><td style="width: 25%;"><a href="cbind.viterbi.html">cbind.viterbi</a></td>
+<td>Join viterbi results for different chromosomes</td></tr>
+<tr><td style="width: 25%;"><a href="cbind_expand.html">cbind_expand</a></td>
+<td>Combine matrices by columns, expanding and aligning rows</td></tr>
+<tr><td style="width: 25%;"><a href="CCcolors.html">CCaltcolors</a></td>
+<td>Collaborative Cross colors</td></tr>
+<tr><td style="width: 25%;"><a href="CCcolors.html">CCcolors</a></td>
+<td>Collaborative Cross colors</td></tr>
+<tr><td style="width: 25%;"><a href="CCcolors.html">CCorigcolors</a></td>
+<td>Collaborative Cross colors</td></tr>
+<tr><td style="width: 25%;"><a href="check_cross2.html">check_cross2</a></td>
+<td>Check a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="chisq_colpairs.html">chisq_colpairs</a></td>
+<td>Chi-square test on all pairs of columns</td></tr>
+<tr><td style="width: 25%;"><a href="chr_lengths.html">chr_lengths</a></td>
+<td>Calculate chromosome lengths</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">chr_names</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="clean.html">clean</a></td>
+<td>Clean an object</td></tr>
+<tr><td style="width: 25%;"><a href="clean_genoprob.html">clean.calc_genoprob</a></td>
+<td>Clean genotype probabilities</td></tr>
+<tr><td style="width: 25%;"><a href="clean_scan1.html">clean.scan1</a></td>
+<td>Clean scan1 output</td></tr>
+<tr><td style="width: 25%;"><a href="clean_genoprob.html">clean_genoprob</a></td>
+<td>Clean genotype probabilities</td></tr>
+<tr><td style="width: 25%;"><a href="clean_scan1.html">clean_scan1</a></td>
+<td>Clean scan1 output</td></tr>
+<tr><td style="width: 25%;"><a href="compare_geno.html">compare_geno</a></td>
+<td>Compare individuals' genotype data</td></tr>
+<tr><td style="width: 25%;"><a href="compare_genoprob.html">compare_genoprob</a></td>
+<td>Compare two sets of genotype probabilities</td></tr>
+<tr><td style="width: 25%;"><a href="compare_maps.html">compare_maps</a></td>
+<td>Compare two marker maps</td></tr>
+<tr><td style="width: 25%;"><a href="convert2cross2.html">convert2cross2</a></td>
+<td>Convert R/qtl cross object to new format</td></tr>
+<tr><td style="width: 25%;"><a href="count_xo.html">count_xo</a></td>
+<td>Count numbers of crossovers</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">covar_names</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="create_gene_query_func.html">create_gene_query_func</a></td>
+<td>Create a function to query genes</td></tr>
+<tr><td style="width: 25%;"><a href="create_snpinfo.html">create_snpinfo</a></td>
+<td>Create snp information table for a cross</td></tr>
+<tr><td style="width: 25%;"><a href="create_variant_query_func.html">create_variant_query_func</a></td>
+<td>Create a function to query variants</td></tr>
+</table>
+
+<h2><a name="D">-- D --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="decomp_kinship.html">decomp_kinship</a></td>
+<td>Calculate eigen decomposition of kinship matrix</td></tr>
+<tr><td style="width: 25%;"><a href="drop_markers.html">drop_markers</a></td>
+<td>Drop markers from a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="drop_nullmarkers.html">drop_nullmarkers</a></td>
+<td>Drop markers with no genotype data</td></tr>
+</table>
+
+<h2><a name="E">-- E --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="est_herit.html">est_herit</a></td>
+<td>Estimate heritability with a linear mixed model</td></tr>
+<tr><td style="width: 25%;"><a href="est_map.html">est_map</a></td>
+<td>Estimate genetic maps</td></tr>
+</table>
+
+<h2><a name="F">-- F --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="find_ibd_segments.html">find_ibd_segments</a></td>
+<td>Find IBD segments for a set of strains</td></tr>
+<tr><td style="width: 25%;"><a href="find_index_snp.html">find_index_snp</a></td>
+<td>Find name of indexed snp</td></tr>
+<tr><td style="width: 25%;"><a href="find_map_gaps.html">find_map_gaps</a></td>
+<td>Find gaps in a genetic map</td></tr>
+<tr><td style="width: 25%;"><a href="find_marker.html">find_marker</a></td>
+<td>Find markers by chromosome position</td></tr>
+<tr><td style="width: 25%;"><a href="find_markerpos.html">find_markerpos</a></td>
+<td>Find positions of markers</td></tr>
+<tr><td style="width: 25%;"><a href="find_peaks.html">find_peaks</a></td>
+<td>Find peaks in a set of LOD curves</td></tr>
+<tr><td style="width: 25%;"><a href="fit1.html">fit1</a></td>
+<td>Fit single-QTL model at a single position</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">founders</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+</table>
+
+<h2><a name="G">-- G --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="genoprob_to_alleleprob.html">genoprob_to_alleleprob</a></td>
+<td>Convert genotype probabilities to allele probabilities</td></tr>
+<tr><td style="width: 25%;"><a href="genoprob_to_snpprob.html">genoprob_to_snpprob</a></td>
+<td>Convert genotype probabilities to SNP probabilities</td></tr>
+<tr><td style="width: 25%;"><a href="get_common_ids.html">get_common_ids</a></td>
+<td>Get common set of IDs from objects</td></tr>
+<tr><td style="width: 25%;"><a href="get_x_covar.html">get_x_covar</a></td>
+<td>Get X chromosome covariates</td></tr>
+<tr><td style="width: 25%;"><a href="guess_phase.html">guess_phase</a></td>
+<td>Guess phase of imputed genotypes</td></tr>
+</table>
+
+<h2><a name="I">-- I --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="index_snps.html">index_snps</a></td>
+<td>Create index of equivalent SNPs</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">ind_ids</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">ind_ids_covar</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">ind_ids_geno</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">ind_ids_gnp</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">ind_ids_pheno</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="insert_pseudomarkers.html">insert_pseudomarkers</a></td>
+<td>Insert pseudomarkers into a marker map</td></tr>
+<tr><td style="width: 25%;"><a href="interp_genoprob.html">interp_genoprob</a></td>
+<td>Interpolate genotype probabilities</td></tr>
+<tr><td style="width: 25%;"><a href="interp_map.html">interp_map</a></td>
+<td>Interpolate between maps</td></tr>
+<tr><td style="width: 25%;"><a href="invert_sdp.html">invert_sdp</a></td>
+<td>Calculate SNP genotype matrix from strain distribution patterns</td></tr>
+</table>
+
+<h2><a name="L">-- L --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="locate_xo.html">locate_xo</a></td>
+<td>Locate crossovers</td></tr>
+<tr><td style="width: 25%;"><a href="lod_int.html">lod_int</a></td>
+<td>Calculate LOD support intervals</td></tr>
+</table>
+
+<h2><a name="M">-- M --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="map_to_grid.html">map_to_grid</a></td>
+<td>Subset a map to positions on a grid</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">marker_names</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="mat2strata.html">mat2strata</a></td>
+<td>Define strata based on rows of a matrix</td></tr>
+<tr><td style="width: 25%;"><a href="max_compare_geno.html">max.compare_geno</a></td>
+<td>Find pair with most similar genotypes</td></tr>
+<tr><td style="width: 25%;"><a href="max_scan1.html">max.scan1</a></td>
+<td>Find position with maximum LOD score</td></tr>
+<tr><td style="width: 25%;"><a href="maxlod.html">maxlod</a></td>
+<td>Overall maximum LOD score</td></tr>
+<tr><td style="width: 25%;"><a href="maxmarg.html">maxmarg</a></td>
+<td>Find genotypes with maximum marginal probabilities</td></tr>
+<tr><td style="width: 25%;"><a href="max_compare_geno.html">max_compare_geno</a></td>
+<td>Find pair with most similar genotypes</td></tr>
+<tr><td style="width: 25%;"><a href="max_scan1.html">max_scan1</a></td>
+<td>Find position with maximum LOD score</td></tr>
+</table>
+
+<h2><a name="N">-- N --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="basic_summaries.html">n_chr</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">n_covar</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">n_founders</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">n_ind</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">n_ind_covar</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">n_ind_geno</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">n_ind_gnp</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">n_ind_pheno</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">n_mar</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="n_missing.html">n_missing</a></td>
+<td>Count missing genotypes</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">n_pheno</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">n_phenocovar</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="n_missing.html">n_typed</a></td>
+<td>Count missing genotypes</td></tr>
+</table>
+
+<h2><a name="P">-- P --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="basic_summaries.html">phenocovar_names</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">pheno_names</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="plot_genoprob.html">plot.calc_genoprob</a></td>
+<td>Plot genotype probabilities for one individual on one chromosome.</td></tr>
+<tr><td style="width: 25%;"><a href="plot_compare_geno.html">plot.compare_geno</a></td>
+<td>Plot of compare_geno object.</td></tr>
+<tr><td style="width: 25%;"><a href="plot_scan1.html">plot.scan1</a></td>
+<td>Plot a genome scan</td></tr>
+<tr><td style="width: 25%;"><a href="plot_coef.html">plot.scan1coef</a></td>
+<td>Plot QTL effects along chromosome</td></tr>
+<tr><td style="width: 25%;"><a href="plot_coef.html">plot_coef</a></td>
+<td>Plot QTL effects along chromosome</td></tr>
+<tr><td style="width: 25%;"><a href="plot_coef.html">plot_coefCC</a></td>
+<td>Plot QTL effects along chromosome</td></tr>
+<tr><td style="width: 25%;"><a href="plot_compare_geno.html">plot_compare_geno</a></td>
+<td>Plot of compare_geno object.</td></tr>
+<tr><td style="width: 25%;"><a href="plot_genes.html">plot_genes</a></td>
+<td>Plot gene locations for a genomic interval</td></tr>
+<tr><td style="width: 25%;"><a href="plot_genoprob.html">plot_genoprob</a></td>
+<td>Plot genotype probabilities for one individual on one chromosome.</td></tr>
+<tr><td style="width: 25%;"><a href="plot_genoprobcomp.html">plot_genoprobcomp</a></td>
+<td>Plot comparison of two sets of genotype probabilities</td></tr>
+<tr><td style="width: 25%;"><a href="plot_lodpeaks.html">plot_lodpeaks</a></td>
+<td>Plot LOD scores vs QTL peak locations</td></tr>
+<tr><td style="width: 25%;"><a href="plot_onegeno.html">plot_onegeno</a></td>
+<td>Plot one individual's genome-wide genotypes</td></tr>
+<tr><td style="width: 25%;"><a href="plot_peaks.html">plot_peaks</a></td>
+<td>Plot QTL peak locations</td></tr>
+<tr><td style="width: 25%;"><a href="plot_pxg.html">plot_pxg</a></td>
+<td>Plot phenotype vs genotype</td></tr>
+<tr><td style="width: 25%;"><a href="plot_scan1.html">plot_scan1</a></td>
+<td>Plot a genome scan</td></tr>
+<tr><td style="width: 25%;"><a href="plot_sdp.html">plot_sdp</a></td>
+<td>plot strain distribution patterns for SNPs</td></tr>
+<tr><td style="width: 25%;"><a href="plot_snpasso.html">plot_snpasso</a></td>
+<td>Plot SNP associations</td></tr>
+<tr><td style="width: 25%;"><a href="predict_snpgeno.html">predict_snpgeno</a></td>
+<td>Predict SNP genotypes</td></tr>
+<tr><td style="width: 25%;"><a href="print.cross2.html">print.cross2</a></td>
+<td>Print a cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="summary_compare_geno.html">print.summary.compare_geno</a></td>
+<td>Basic summary of compare_geno object</td></tr>
+<tr><td style="width: 25%;"><a href="print.summary.scan1perm.html">print.summary.scan1perm</a></td>
+<td>Print summary of scan1perm permutations</td></tr>
+<tr><td style="width: 25%;"><a href="probs_to_grid.html">probs_to_grid</a></td>
+<td>Subset genotype probability array to pseudomarkers on a grid</td></tr>
+<tr><td style="width: 25%;"><a href="pull_genoprobint.html">pull_genoprobint</a></td>
+<td>Pull genotype probabilities for an interval</td></tr>
+<tr><td style="width: 25%;"><a href="pull_genoprobpos.html">pull_genoprobpos</a></td>
+<td>Pull genotype probabilities for a particular position</td></tr>
+<tr><td style="width: 25%;"><a href="pull_markers.html">pull_markers</a></td>
+<td>Drop all but a specified set of markers</td></tr>
+</table>
+
+<h2><a name="Q">-- Q --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="qtl2version.html">qtl2version</a></td>
+<td>Installed version of R/qtl2</td></tr>
+</table>
+
+<h2><a name="R">-- R --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="rbind.calc_genoprob.html">rbind.calc_genoprob</a></td>
+<td>Join genotype probabilities for different individuals</td></tr>
+<tr><td style="width: 25%;"><a href="rbind.scan1.html">rbind.scan1</a></td>
+<td>Join genome scan results for different chromosomes.</td></tr>
+<tr><td style="width: 25%;"><a href="rbind.scan1perm.html">rbind.scan1perm</a></td>
+<td>Combine data from scan1perm objects</td></tr>
+<tr><td style="width: 25%;"><a href="rbind.sim_geno.html">rbind.sim_geno</a></td>
+<td>Join genotype imputations for different individuals</td></tr>
+<tr><td style="width: 25%;"><a href="rbind.viterbi.html">rbind.viterbi</a></td>
+<td>Join Viterbi results for different individuals</td></tr>
+<tr><td style="width: 25%;"><a href="read_cross2.html">read_cross2</a></td>
+<td>Read QTL data from files</td></tr>
+<tr><td style="width: 25%;"><a href="read_csv.html">read_csv</a></td>
+<td>Read a csv file</td></tr>
+<tr><td style="width: 25%;"><a href="read_csv_numer.html">read_csv_numer</a></td>
+<td>Read a csv file that has numeric columns</td></tr>
+<tr><td style="width: 25%;"><a href="read_pheno.html">read_pheno</a></td>
+<td>Read phenotype data</td></tr>
+<tr><td style="width: 25%;"><a href="recode_snps.html">recode_snps</a></td>
+<td>Recode SNPs by major allele</td></tr>
+<tr><td style="width: 25%;"><a href="reduce_map_gaps.html">reduce_map_gaps</a></td>
+<td>Reduce the lengths of gaps in a map</td></tr>
+<tr><td style="width: 25%;"><a href="reduce_markers.html">reduce_markers</a></td>
+<td>Reduce markers to a subset of more-evenly-spaced ones</td></tr>
+<tr><td style="width: 25%;"><a href="replace_ids.html">replace_ids</a></td>
+<td>Replace individual IDs</td></tr>
+<tr><td style="width: 25%;"><a href="replace_ids.html">replace_ids.calc_genoprob</a></td>
+<td>Replace individual IDs</td></tr>
+<tr><td style="width: 25%;"><a href="replace_ids.html">replace_ids.cross2</a></td>
+<td>Replace individual IDs</td></tr>
+<tr><td style="width: 25%;"><a href="replace_ids.html">replace_ids.data.frame</a></td>
+<td>Replace individual IDs</td></tr>
+<tr><td style="width: 25%;"><a href="replace_ids.html">replace_ids.matrix</a></td>
+<td>Replace individual IDs</td></tr>
+<tr><td style="width: 25%;"><a href="replace_ids.html">replace_ids.sim_geno</a></td>
+<td>Replace individual IDs</td></tr>
+<tr><td style="width: 25%;"><a href="replace_ids.html">replace_ids.viterbi</a></td>
+<td>Replace individual IDs</td></tr>
+</table>
+
+<h2><a name="S">-- S --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="scale_kinship.html">scale_kinship</a></td>
+<td>Scale kinship matrix</td></tr>
+<tr><td style="width: 25%;"><a href="scan1.html">scan1</a></td>
+<td>Genome scan with a single-QTL model</td></tr>
+<tr><td style="width: 25%;"><a href="scan1blup.html">scan1blup</a></td>
+<td>Calculate BLUPs of QTL effects in scan along one chromosome</td></tr>
+<tr><td style="width: 25%;"><a href="scan1coef.html">scan1coef</a></td>
+<td>Calculate QTL effects in scan along one chromosome</td></tr>
+<tr><td style="width: 25%;"><a href="scan1max.html">scan1max</a></td>
+<td>Maximum LOD score from genome scan with a single-QTL model</td></tr>
+<tr><td style="width: 25%;"><a href="scan1perm.html">scan1perm</a></td>
+<td>Permutation test for genome scan with a single-QTL model</td></tr>
+<tr><td style="width: 25%;"><a href="scan1snps.html">scan1snps</a></td>
+<td>Single-QTL genome scan at imputed SNPs</td></tr>
+<tr><td style="width: 25%;"><a href="sdp2char.html">sdp2char</a></td>
+<td>Convert strain distribution patterns to character strings</td></tr>
+<tr><td style="width: 25%;"><a href="sim_geno.html">sim_geno</a></td>
+<td>Simulate genotypes given observed marker data</td></tr>
+<tr><td style="width: 25%;"><a href="subset.calc_genoprob.html">subset.calc_genoprob</a></td>
+<td>Subsetting genotype probabilities</td></tr>
+<tr><td style="width: 25%;"><a href="subset.cross2.html">subset.cross2</a></td>
+<td>Subsetting data for a QTL experiment</td></tr>
+<tr><td style="width: 25%;"><a href="subset_scan1.html">subset.scan1</a></td>
+<td>Subset scan1 output</td></tr>
+<tr><td style="width: 25%;"><a href="subset.sim_geno.html">subset.sim_geno</a></td>
+<td>Subsetting imputed genotypes</td></tr>
+<tr><td style="width: 25%;"><a href="subset.viterbi.html">subset.viterbi</a></td>
+<td>Subsetting Viterbi results</td></tr>
+<tr><td style="width: 25%;"><a href="subset_scan1.html">subset_scan1</a></td>
+<td>Subset scan1 output</td></tr>
+<tr><td style="width: 25%;"><a href="summary_compare_geno.html">summary.compare_geno</a></td>
+<td>Basic summary of compare_geno object</td></tr>
+<tr><td style="width: 25%;"><a href="summary.cross2.html">summary.cross2</a></td>
+<td>Summary of cross2 object</td></tr>
+<tr><td style="width: 25%;"><a href="summary_scan1perm.html">summary.scan1perm</a></td>
+<td>Summarize scan1perm results</td></tr>
+<tr><td style="width: 25%;"><a href="summary_compare_geno.html">summary_compare_geno</a></td>
+<td>Basic summary of compare_geno object</td></tr>
+<tr><td style="width: 25%;"><a href="summary_scan1perm.html">summary_scan1perm</a></td>
+<td>Summarize scan1perm results</td></tr>
+</table>
+
+<h2><a name="T">-- T --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="top_snps.html">top_snps</a></td>
+<td>Create table of top snp associations</td></tr>
+<tr><td style="width: 25%;"><a href="basic_summaries.html">tot_mar</a></td>
+<td>Basic summaries of a cross2 object</td></tr>
+</table>
+
+<h2><a name="V">-- V --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="viterbi.html">viterbi</a></td>
+<td>Calculate most probable sequence of genotypes</td></tr>
+</table>
+
+<h2><a name="W">-- W --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="write_control_file.html">write_control_file</a></td>
+<td>Write a control file for QTL data</td></tr>
+</table>
+
+<h2><a name="X">-- X --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="xpos_scan1.html">xpos_scan1</a></td>
+<td>Get x-axis position for genomic location</td></tr>
+</table>
+
+<h2><a name="Z">-- Z --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="zip_datafiles.html">zip_datafiles</a></td>
+<td>Zip a set of data files</td></tr>
+</table>
+
+<h2><a name="misc">-- misc --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="subset.calc_genoprob.html">[.calc_genoprob</a></td>
+<td>Subsetting genotype probabilities</td></tr>
+<tr><td style="width: 25%;"><a href="subset.cross2.html">[.cross2</a></td>
+<td>Subsetting data for a QTL experiment</td></tr>
+<tr><td style="width: 25%;"><a href="subset.sim_geno.html">[.sim_geno</a></td>
+<td>Subsetting imputed genotypes</td></tr>
+<tr><td style="width: 25%;"><a href="subset.viterbi.html">[.viterbi</a></td>
+<td>Subsetting Viterbi results</td></tr>
+</table>
+</body></html>

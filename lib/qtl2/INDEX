@@ -1,0 +1,158 @@
+CCcolors                Collaborative Cross colors
+add_threshold           Add thresholds to genome scan plot
+basic_summaries         Basic summaries of a cross2 object
+batch_cols              Batch columns by pattern of missing values
+batch_vec               Split vector into batches
+bayes_int               Calculate Bayes credible intervals
+calc_entropy            Calculate entropy of genotype probability
+                        distribution
+calc_errorlod           Calculate genotyping error LOD scores
+calc_geno_freq          Calculate genotype frequencies
+calc_genoprob           Calculate conditional genotype probabilities
+calc_grid               Calculate indicators of which
+                        marker/pseudomarker positions are along a fixed
+                        grid
+calc_het                Calculate heterozygosities
+calc_kinship            Calculate kinship matrix
+calc_raw_founder_maf    Calculate founder minor allele frequencies from
+                        raw SNP genotypes
+calc_raw_geno_freq      Calculate genotype frequencies from raw SNP
+                        genotypes
+calc_raw_het            Calculate estimated heterozygosity from raw SNP
+                        genotypes
+calc_raw_maf            Calculate minor allele frequency from raw SNP
+                        genotypes
+calc_sdp                Calculate strain distribution pattern from SNP
+                        genotypes
+cbind.calc_genoprob     Join genotype probabilities for different
+                        chromosomes
+cbind.scan1             Join genome scan results for different
+                        phenotypes.
+cbind.scan1perm         Combine columns from multiple scan1 permutation
+                        results
+cbind.sim_geno          Join genotype imputations for different
+                        chromosomes
+cbind.viterbi           Join viterbi results for different chromosomes
+cbind_expand            Combine matrices by columns, expanding and
+                        aligning rows
+check_cross2            Check a cross2 object
+chisq_colpairs          Chi-square test on all pairs of columns
+chr_lengths             Calculate chromosome lengths
+clean                   Clean an object
+clean_genoprob          Clean genotype probabilities
+clean_scan1             Clean scan1 output
+compare_geno            Compare individuals' genotype data
+compare_genoprob        Compare two sets of genotype probabilities
+compare_maps            Compare two marker maps
+convert2cross2          Convert R/qtl cross object to new format
+count_xo                Count numbers of crossovers
+create_gene_query_func
+                        Create a function to query genes
+create_snpinfo          Create snp information table for a cross
+create_variant_query_func
+                        Create a function to query variants
+decomp_kinship          Calculate eigen decomposition of kinship matrix
+drop_markers            Drop markers from a cross2 object
+drop_nullmarkers        Drop markers with no genotype data
+est_herit               Estimate heritability with a linear mixed model
+est_map                 Estimate genetic maps
+find_ibd_segments       Find IBD segments for a set of strains
+find_index_snp          Find name of indexed snp
+find_map_gaps           Find gaps in a genetic map
+find_marker             Find markers by chromosome position
+find_markerpos          Find positions of markers
+find_peaks              Find peaks in a set of LOD curves
+fit1                    Fit single-QTL model at a single position
+genoprob_to_alleleprob
+                        Convert genotype probabilities to allele
+                        probabilities
+genoprob_to_snpprob     Convert genotype probabilities to SNP
+                        probabilities
+get_common_ids          Get common set of IDs from objects
+get_x_covar             Get X chromosome covariates
+guess_phase             Guess phase of imputed genotypes
+index_snps              Create index of equivalent SNPs
+insert_pseudomarkers    Insert pseudomarkers into a marker map
+interp_genoprob         Interpolate genotype probabilities
+interp_map              Interpolate between maps
+invert_sdp              Calculate SNP genotype matrix from strain
+                        distribution patterns
+locate_xo               Locate crossovers
+lod_int                 Calculate LOD support intervals
+map_to_grid             Subset a map to positions on a grid
+mat2strata              Define strata based on rows of a matrix
+max_compare_geno        Find pair with most similar genotypes
+max_scan1               Find position with maximum LOD score
+maxlod                  Overall maximum LOD score
+maxmarg                 Find genotypes with maximum marginal
+                        probabilities
+n_missing               Count missing genotypes
+plot_coef               Plot QTL effects along chromosome
+plot_compare_geno       Plot of compare_geno object.
+plot_genes              Plot gene locations for a genomic interval
+plot_genoprob           Plot genotype probabilities for one individual
+                        on one chromosome.
+plot_genoprobcomp       Plot comparison of two sets of genotype
+                        probabilities
+plot_lodpeaks           Plot LOD scores vs QTL peak locations
+plot_onegeno            Plot one individual's genome-wide genotypes
+plot_peaks              Plot QTL peak locations
+plot_pxg                Plot phenotype vs genotype
+plot_scan1              Plot a genome scan
+plot_sdp                plot strain distribution patterns for SNPs
+plot_snpasso            Plot SNP associations
+predict_snpgeno         Predict SNP genotypes
+print.cross2            Print a cross2 object
+print.summary.scan1perm
+                        Print summary of scan1perm permutations
+probs_to_grid           Subset genotype probability array to
+                        pseudomarkers on a grid
+pull_genoprobint        Pull genotype probabilities for an interval
+pull_genoprobpos        Pull genotype probabilities for a particular
+                        position
+pull_markers            Drop all but a specified set of markers
+qtl2version             Installed version of R/qtl2
+rbind.calc_genoprob     Join genotype probabilities for different
+                        individuals
+rbind.scan1             Join genome scan results for different
+                        chromosomes.
+rbind.scan1perm         Combine data from scan1perm objects
+rbind.sim_geno          Join genotype imputations for different
+                        individuals
+rbind.viterbi           Join Viterbi results for different individuals
+read_cross2             Read QTL data from files
+read_csv                Read a csv file
+read_csv_numer          Read a csv file that has numeric columns
+read_pheno              Read phenotype data
+recode_snps             Recode SNPs by major allele
+reduce_map_gaps         Reduce the lengths of gaps in a map
+reduce_markers          Reduce markers to a subset of
+                        more-evenly-spaced ones
+replace_ids             Replace individual IDs
+scale_kinship           Scale kinship matrix
+scan1                   Genome scan with a single-QTL model
+scan1blup               Calculate BLUPs of QTL effects in scan along
+                        one chromosome
+scan1coef               Calculate QTL effects in scan along one
+                        chromosome
+scan1max                Maximum LOD score from genome scan with a
+                        single-QTL model
+scan1perm               Permutation test for genome scan with a
+                        single-QTL model
+scan1snps               Single-QTL genome scan at imputed SNPs
+sdp2char                Convert strain distribution patterns to
+                        character strings
+sim_geno                Simulate genotypes given observed marker data
+subset.calc_genoprob    Subsetting genotype probabilities
+subset.cross2           Subsetting data for a QTL experiment
+subset.sim_geno         Subsetting imputed genotypes
+subset.viterbi          Subsetting Viterbi results
+subset_scan1            Subset scan1 output
+summary.cross2          Summary of cross2 object
+summary_compare_geno    Basic summary of compare_geno object
+summary_scan1perm       Summarize scan1perm results
+top_snps                Create table of top snp associations
+viterbi                 Calculate most probable sequence of genotypes
+write_control_file      Write a control file for QTL data
+xpos_scan1              Get x-axis position for genomic location
+zip_datafiles           Zip a set of data files

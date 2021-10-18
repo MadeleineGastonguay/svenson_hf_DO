@@ -1,0 +1,3 @@
+doFuture                doFuture: Foreach Parallel Adapter using
+                        Futures
+registerDoFuture        Registers the future %dopar% backend

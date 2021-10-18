@@ -1,0 +1,42 @@
+bmediatR                Bayesian model selection for mediation analysis
+                        function
+bmediatR_v0             Bayesian model selection for mediation analysis
+                        function, version 0
+estimate_empirical_prior
+                        Calculate empirical priors based on the
+                        relationships in the data between X, M, and y
+get_approx_pval         Function that calculate approximate p-values
+                        for posterior odds
+get_perm_pval           Function that calculate permutation-based
+                        p-values for posterior odds
+model_info              Definions and encodings for models included in
+                        the mediation analysis through Bayesian model
+                        selection
+model_matrix_from_ID    Produce SDP mapping matrix from SDP string
+plot_posterior_bar      Barplot of posterior model probabilities
+plot_posterior_odds     Posterior odds genome plot function
+plot_prior_bar          Barplot of prior model probabilities
+posterior_summary       Summaries of posterior model probabilities
+                        function
+return_ln_prior_c_from_presets
+                        Convert preset options to log prior case
+                        pobabilities function
+return_preset_odds_index
+                        Column indeces for commonly used posterior odds
+sim_balanced_locus      Simulate a balanced eight allele design matrix
+sim_cc_data             Simulate Collaborative Cross (CC) data from
+                        realized CC genomes
+sim_cc_single_locus     Simulate Collaborative Cross (CC) data from a
+                        specified locus design matrix
+sim_mpp_data            Simulate multiparental population (MPP) data
+                        from realized genomes
+sim_mpp_single_locus    Simulate multiparental population (MPP) data
+                        from a specified locus design matrix
+sim_mpp_single_locus_partial
+                        Simulate target (y) and mediator (m) for
+                        partial mediation from a specified locus design
+                        matrix
+sim_target              Simulate target from mediator
+sim_target_from_mediator
+                        Simulate target from mediator
+sumtozero_contrast      Sum-to-zero contrast matrix
