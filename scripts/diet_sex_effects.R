@@ -1,13 +1,22 @@
-load("../data/source/Svenson_DO_HFD_v10_03.26.2021.RData", svenson <- new.env()) # Gene expression
-load("../data/source/do_proteomics_qtlviewer.Rdata", svenson) # Protein Expression
-ls(svenson)
+#################################################################################
+## This script finds diet and sex effects for phenotypes and mRNA measured in the
+## Svenson DO mice
+#################################################################################
 
+## Load Libraries
+.libPaths("lib")
 library(rstatix)
 library(tidyverse)
 library(bmediatR)
 library(doFuture)
 registerDoFuture()
 plan(multisession)
+
+
+## Load data
+load("data/source/Svenson_DO_HFD_v10_03.26.2021.RData") # Gene expression
+load("data/source/do_proteomics_qtlviewer.Rdata") # Protein Expression
+
 
 #################################################################################
 ## Find diet and sex effects
